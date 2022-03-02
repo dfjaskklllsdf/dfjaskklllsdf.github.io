@@ -4,11 +4,13 @@ a:hover{color: green;}
 {
 	display:flex;
 	flex-direction: column;
+	 justify-content: center;
 }
 .heng
 {
 	display: flex;
       flex: auto;
+	 justify-content: center;
 }
 
 .as{
