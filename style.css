@@ -1,21 +1,17 @@
 a:hover{color: green;}
 
-.shu
-{
-	display:flex;
-	flex-direction: column;
-	 justify-content: center;
+body main{
+    display: flex
 }
-.heng
-{
-	display: flex;
-      flex: auto;
-	 justify-content: center;
+body{
+    flex-direction: column
 }
-
-.as{
-	flex: 1;
+main{
+    flex: auto
 }
-.at{
-	flex: 3;
+aside{
+    flex: 1
+}
+article{
+    flex: 3
 }
