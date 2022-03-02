@@ -1,1 +1,18 @@
-a:hover{  color:green;}
+a:hover{color: green;}
+
+.shu
+{
+	flex-direction: column;
+}
+.heng
+{
+	display: flex;
+      flex: auto;
+}
+.
+.as{
+	flex: 1;
+}
+.at{
+	flex: 3;
+}
