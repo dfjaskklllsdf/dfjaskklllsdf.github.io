@@ -1,17 +1,242 @@
-a:hover{color: green;}
 
-body main{
-    display: flex
+
+.wrap{background: url(https://game.gtimg.cn/images/dnf/cp/a20220224index/wrap-bg.jpg) no-repeat center top;position: relative;}
+.wrap-inner{width: 1200px;background: url(https://game.gtimg.cn/images/dnf/cp/a20220224index/bg.jpg) no-repeat center top;height: 1080px;position: relative;margin:  0  auto;}
+*
+{
+    margin: 0;
+    padding: 0;
+    
 }
-body{
-    flex-direction: column
+
+.dingbuul
+{
+    width: 1120px;
+    list-style: none;
+    background-color: darkblue;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
 }
-main{
-    flex: auto
+
+.dingbuul .dingbuli
+{
+    
+    float: left;
+    width: 14%;
 }
-aside{
-    flex: 1
+.dingbuul .dingbuli .dingbua
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    color: white;
+    font-size: 18px;
+    font-weight:bold ;
+    
 }
-article{
-    flex: 3
+.dingbuul .dingbuli .dingbua:hover
+{
+    background-color: darkred;
+}
+.xiwang
+{
+    display: block;
+    
+    width: 1120px;
+    margin: 0px  auto;
+    text-align: center;
+    padding: 30px  0  30px  0;
+    background-color: orange;
+    color: white;
+    font-size: 40px;
+    font-family: "宋体";
+}
+.kongde
+{
+    display: block;
+    height: 240px;
+    width: 0px  auto;
+}
+.zhong
+{
+    padding: 0px;
+    margin-left: -100px;
+    text-align: center;
+height: 472px;
+
+}
+.zhongzuo
+{
+     padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 20%;
+     float: left;
+}
+.zhongzuoul
+{
+     padding: 0px;
+    margin: 0px;
+    text-align: center;
+    list-style: none;
+    background-color: darkred;
+    overflow: hidden;
+
+
+}
+.zhongzuoul  .zhongzuoli
+{
+    width: 100%;
+}
+
+.zhongzuoul .zhongzuoli .zhongzuoa
+{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 39px 0 39px 0;
+    color: white;
+    font-size: 30px;
+    font-weight:bold ;
+    
+}
+
+.zhongzuoul .zhongzuoli .zhongzuoa:hover
+{
+    background-color: black;
+}
+
+.zhongzuoli
+{
+     padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.zhongzuoa
+{
+     padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.zhongzhong
+{
+  padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 50%;
+    height: 472px;
+    float: left;
+}
+
+
+
+.zhongyou
+{
+    padding: 0px;
+    margin-left: 165px;
+    margin-right: -100px;
+    text-align: center;
+    width: 300px;
+    float: left;
+    
+}
+
+.zhongyouul
+{
+     padding: 0px;
+    margin: 0px;
+    height: 472px;
+    text-align: center;
+    list-style: none;
+    background-color: darkred;
+    overflow: hidden;
+
+
+}
+.zhongyouli
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    color: white;
+    padding: 20px  0   20px 0;
+}
+p
+{
+   color: orange;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: "宋体";
+   text-align: left;
+}
+.bushuxitong
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 70px  0   70px  0;
+    background-color: black;
+    width: 1500px;
+    margin-left: -200px;
+    color: white;
+}
+
+
+
+
+.boodd
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#87CEFA;
+}
+
+.mianmian
+{
+    display: flex;
+    flex: auto;
+}
+.as
+{
+    flex: 1;
+    background-color:#87CEF5 ;
+}
+.at
+{
+    flex: 3;
+}
+
+.shouyeul
+{
+
+    
+    list-style: none;
+    background-color: orange;
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.shouyeul .shouyeli .shouyea
+{
+     display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    color: white;
+    font-size: 18px;
+    font-weight:bold ;
+}
+
+
+.shouyeul .shouyeli .shouyea:hover
+{
+  
+    background-color: black;
+
 }
